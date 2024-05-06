@@ -37,3 +37,47 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+.fd{
+	margin: 20px 0px 0px 20px;
+	width: 50%;
+}
+.ss{
+	display: inline-block;
+	margin: 20px 0px 0px 20px
+}
+.ts{
+	display: block;
+	margin: 0px 0px 0px 20px;
+}
+.fod{
+	margin: 20px 0px 0px 20px;
+	padding: 0px 0px 20px 0px;
+	width: 100%;
+}
+.fid{
+	/* Почему здесь работает margin? ведь inline = span , а у span не работают отступы */
+	display: inline;
+	margin: 20px 0px 0px 20px;
+	/* max-width: 20%; */
+}
+.sp{
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+}
+.ses{
+	display: block;
+	margin: 20px 20px 0px 20px;
+	padding: 0px 20px;
+	max-width: 40%;
+}
+.ea{
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+	padding: 0px 20px 0px 0px;
+}
+.last{
+	display: block;
+	margin: 20px 0px 0px 20px;
+	padding: 20px 0px;
+}
