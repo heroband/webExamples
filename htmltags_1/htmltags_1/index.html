@@ -1,0 +1,82 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>Знакомство с HTML тегами. Часть №1</title>
+    <link rel="stylesheet" href="css/style.css"">
+    <!-- Кодировка страницы -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+
+
+    
+    <form action="google.com" method="post" enctype="multipart/form-data">
+      
+      <div>
+        <label for="username">Имя</label><br/> 
+        <input type="text" name="username" id="username" placeholder="Имя"/>
+      </div><br/>
+      
+      <div>
+        <label for="userPassword">Пароль</label><br/> 
+        <input type="password" name="userPassword" id="userPassword"/>
+      </div><br/>
+
+      <div>
+        <label for="userPhone">Телефон</label><br/>
+        <input type="number" name="userPhone" id="userPhone"/>
+      </div><br/>
+
+      <div>
+        Пол<br/>
+        <input type="radio" name="Gender" id="Male" value="Male"> 
+        <label for="Male">Мужской</label><br/>
+        <input type="radio" name="Gender" id="Female" value="Female"> 
+        <label for="Female">Женский</label>
+      </div><br/>
+
+      <div>
+        Имущество<br>
+        <input type="checkbox" name="isBicycle" id="isBicycle">
+        <label for="isBicycle">Велосипед</label><br>
+
+        <input type="checkbox" name="isCar" id="isCar">
+        <label for="isCar">Машина</label><br>
+
+        <input type="checkbox" name="isFlat" id="isFlat">
+        <label for="isFlat">Квартира</label><br>
+      </div><br/>
+
+      <div>
+        <label for="textarea">Дополнительная информация</label><br>
+        <textarea name="textarea" id="textarea"></textarea>
+      </div><br/>
+
+      <div>
+        <label for="fileInput">Прикрепить фото</label><br>
+        <input type="file" name="file" id="fileInput"/>
+      </div><br/>
+
+      <div>
+        <label for="selectColor">Любимый цвет</label><br>
+        <select name="selectColor" id="selectColor">
+          <option selected value="red" >красный</option>
+          <option value="blue">синий</option>
+          <option value="yellow">желтый</option>
+        </select>
+      </div><br/>
+
+      <div>
+        Действия<br>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </div>
+
+    </form>
+  </body>
+</html>
