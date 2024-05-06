@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .ts{
 	display: block;
+	width: fit-content;
 	margin: 0px 0px 0px 20px;
 }
 .fod{
@@ -56,20 +57,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	width: 100%;
 }
 .fid{
-	/* Почему здесь работает margin? ведь inline = span , а у span не работают отступы */
-	display: inline;
-	margin: 20px 0px 0px 20px;
-	/* max-width: 20%; */
+	display: inline-block;
+	margin: 20px 20px 0px 20px;
 }
 .sp{
 	display: inline-block;
 	margin: 0px 0px 0px 20px;
 }
 .ses{
-	display: block;
+	display: inline-block;
 	margin: 20px 20px 0px 20px;
 	padding: 0px 20px;
-	max-width: 40%;
+	width: 40%;
 }
 .ea{
 	display: inline-block;
